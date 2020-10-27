@@ -1,0 +1,95 @@
+/* DEFAULT SETUP */
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;/* mặc định là 16px*/
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+/* reuseble section */
+.hr-edition{
+    background-color: #05c46b;
+    width: 100%;
+    height: 15px;
+    margin: 0 0;
+}
+
+
+/* header content section */
+.header-content-section{
+    background-color:black;
+    width: 100%;
+    height: 300px;
+}
+.avt-frame{
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 3px whitesmoke;
+    position: absolute;
+    left: 45%;
+    top:30%;
+}
+.avt-frame img{
+    /* margin: -300px -200px 0 0; */
+    height: auto;
+    width: 150px;
+}
+.name-and-contact{
+    color: whitesmoke;
+    position: absolute;
+    top: 20%;
+}
+.name-and-contact h3{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    font-weight: 800;
+    font-size: 200%;
+}
+.name-and-contact ul{
+    list-style: none;
+    position: relative;
+    left: 10px;
+}
+.name-and-contact ul i{
+    margin-right: 10px;
+    transition: all .5s;
+}
+.name-and-contact ul i:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+/* main-content section */
+.info-box{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.main-content-section{
+    background-color: whitesmoke;
+}
+.main-content-section h4{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+}
+.main-content-section ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    text-align: center;
+    /* color:whitesmoke; */
+}
+
